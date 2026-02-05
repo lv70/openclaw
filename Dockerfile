@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:20-slim
+FROM --platform=linux/amd64 node:22-slim
 # Install Bun (required for build scripts)
 RUN curl -fsSL https://bun.sh/install | bash
 ENV PATH="/root/.bun/bin:${PATH}"
